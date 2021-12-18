@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Results obtained after a citation analysis on the Wakefield et al. retracted article</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- Custom styles for this template -->
+  <link href="css/the-big-picture.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="https://github.com/ivanhb/thesis_results"><i style="font-size:24px" class="fa fa-github-alt"></i> Visit the Github repository</a>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <section>
+    <div class="container">
+      <div class="row main">
+        <div class="col-lg-9">
+          <h1 class="mt-5">The results obtained after a citation analysis on the Wakefield et al. retracted article</h1>
+          <p>This page contains the graphics and dynamic visualizations built on the results obtained after the application of a citation analysis on the Wakefield et al. retracted article.
+            On this page we provide:
+            <ul>
+            <li><span class="g3">Four images that summarize some of the values and stats we have obtained as a result of our citation analysis. Two characterizes the citing entities and two characterizes the in-text citations contained in the citing entites</span></li>
+
+            <li><span class="g1">Two dynamic visualizations (LDAvis and two MTMvis) to show the results obtained after the application of a topic modeling over the abstracts of the citing entities</span></li>
+
+            <li><span class="g2">Two dynamic visualizations (LDAvis and two MTMvis) to show the results obtained after the application of a topic modeling over the contexts of the in-text citations contained in the citing entities</span></li>
+            </ul>
+          <!--<p>Each one of the blocks below redirects to one of the above images/visualizations.</p>-->
+        </div>
+      </div>
+    </div>
+    <div class="container secondary">
+      <div class="row">
+        <div class="box g3" onclick="location.href='data/cits_1.png'">
+          <p class="content mt-1"><b>Descriptive statistics</b> of some of the values concerning the <b>citing entities</b> in the periods <b>P0, P2, and P4</b></p>
+        </div>
+        <div class="box g3" onclick="location.href='data/cits_2.png'">
+          <p class="content mt-1"><b>Descriptive statistics</b> of some of the values concerning the <b>citing entities</b>in the periods <b>P1 and P3</b></p>
+        </div>
+        <div class="box g3" onclick="location.href='data/intext_cits_1.png'">
+          <p class="content mt-1"><b>Descriptive statistics</b> of some of the values concerning the <b>in-text citations</b> contained in the citing entities in the periods <b>P0, P2, and P4</b></p>
+        </div>
+        <div class="box g3" onclick="location.href='data/intext_cits_2.png'">
+          <p class="content mt-1"><b>Descriptive statistics</b> of some of the values concerning the <b>in-text citations</b> contained in the citing entities in the periods <b>P1 and P3</b></p>
+        </div>
+      </div>
+    </div>
+    <div class="container secondary">
+      <div class="row">
+          <div class="box g1" onclick="location.href='data/ldavis_cits.html'">
+            <p class="content mt-1"><b>LDAvis</b> over the topic model obtained from the <b>abstracts</b> of the citing entities</p>
+          </div>
+          <div class="box g1" onclick="location.href='data/mtmvis_cits.html'">
+            <p class="content mt-1"><b>MTMvis</b> over the topics of the topic model obtained from the <b>abstracts</b> of the citing entities, shown against their <b>periods</b></p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="box g2" onclick="location.href='data/ldavis_intextcits.html'">
+            <p class="content mt-1"><b>LDAvis</b> over the topic model created using the citation contexts of the <b>in-text citations</b> contained in the citing entities</p>
+          </div>
+          <div class="box g2" onclick="location.href='data/mtmvis_intextcits.html'">
+            <p class="content mt-1"><b>MTMvis</b> over the topics of the topic model obtained from the citation contexts of the <b>in-text citations</b> in the citing entities, shown against their <b>periods</b></p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
