@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>The quantitative and qualitative results of a citation analysis toward the retractions in the humanities domain</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- Custom styles for this template -->
+  <link href="css/the-big-picture.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="https://github.com/ivanhb/ret-analysis-hum-results"><i style="font-size:24px" class="fa fa-github-alt"></i> Visit the Github repository</a>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <section>
+    <div class="container">
+      <div class="row main">
+        <div class="col-lg-9">
+          <h1 class="mt-5">The quantitative and qualitative results of a citation analysis toward the retractions in the humanities domain</h1>
+          <p>This page contains the graphics and dynamic visualizations built on the results obtained after the application of a citation analysis toward the retractions in the humanities domain. On this page we provide:
+            <ul>
+            <li><span class="g3">Two images that summarize some of the values and stats we have obtained as a result of our citation analysis. One characterizes the citing entities and one characterizes the in-text citations contained in the citing entites</span></li>
+
+            <li><span class="g1">Two dynamic visualizations (LDAvis and MTMvis) to show the results obtained after the application of a topic modeling over the abstracts of the citing entities</span></li>
+
+            <li><span class="g2">Two dynamic visualizations (LDAvis and MTMvis) to show the results obtained after the application of a topic modeling over the contexts of the in-text citations contained in the citing entities</span></li>
+            </ul>
+          <!--<p>Each one of the blocks below redirects to one of the above images/visualizations.</p>-->
+        </div>
+      </div>
+    </div>
+    <div class="container secondary">
+      <div class="row">
+        <div class="box g3" onclick="location.href='data/cits.png'">
+          <p class="content mt-1"><b>Descriptive statistics</b> of some of the values concerning the <b>citing entities</b></p>
+        </div>
+        <div class="box g3" onclick="location.href='data/intext_cits.png'">
+          <p class="content mt-1"><b>Descriptive statistics</b> of some of the values concerning the <b>in-text citations</b> contained in the citing entities</p>
+        </div>
+      </div>
+    </div>
+    <div class="container secondary">
+      <div class="row">
+          <div class="box g1" onclick="location.href='data/topic_modeling/abstracts/datasets_and_views/ldavis.html'">
+            <p class="content mt-1"><b>LDAvis</b> over the topic model obtained from the <b>abstracts</b> of the citing entities</p>
+          </div>
+          <div class="box g1" onclick="location.href='data/topic_modeling/abstracts/datasets_and_views/mtmvis.html'">
+            <p class="content mt-1"><b>MTMvis</b> over the topics of the topic model obtained from the <b>abstracts</b> of the citing entities</p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="box g2" onclick="location.href='data/topic_modeling/intext_cit/datasets_and_views/ldavis.html'">
+            <p class="content mt-1"><b>LDAvis</b> over the topic model created using the citation contexts of the <b>in-text citations</b> contained in the citing entities</p>
+          </div>
+          <div class="box g2" onclick="location.href='data/topic_modeling/intext_cit/datasets_and_views/mtmvis.html'">
+            <p class="content mt-1"><b>MTMvis</b> over the topics of the topic model obtained from the citation contexts of the <b>in-text citations</b> in the citing entities</p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
